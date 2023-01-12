@@ -9,8 +9,8 @@ import (
 
 func main() {
 
-	os.Setenv("SLACK_BOT_TOKEN", "xoxb-4627926745622-4620060884135-elsgr9KuHSeffaSEJW9Ri9Ig")
-	os.Setenv("CHANNEL_ID", "C04JQVBHH6G")
+	os.Setenv("SLACK_BOT_TOKEN", "REMOVE WITH THE OAUTH TOKEN")
+	os.Setenv("CHANNEL_ID", "REMOVE WITH CHANNEL ID")
 	api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
 	channelArr := []string{os.Getenv("CHANNEL_ID")}
 	fileArr := []string{"PSRC.pdf"}
